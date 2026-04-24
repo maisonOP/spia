@@ -1,6 +1,9 @@
 # SPIA(Subject-level PII Inference Assessment)
 
 
+[![arXiv](https://img.shields.io/badge/arXiv-2604.21211-b31b1b.svg)](https://arxiv.org/abs/2604.21211)
+[![Dataset on HF](https://img.shields.io/badge/🤗%20Dataset-SPIA-yellow)](https://huggingface.co/datasets/maisonOP/spia)
+
 This repository contains the code and data for:
 > **Subject-level PII Inference Assessment for Realistic Text Anonymization Evaluation** (**ACL 2026**).
 
@@ -222,6 +225,8 @@ If you use SPIA in your research, please cite:
     title={Subject-level PII Inference Assessment for Realistic Text Anonymization Evaluation},
     booktitle={Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (ACL 2026)},
     year={2026},
-    url={https://github.com/maisonOP/spia}
+    eprint={2604.21211},
+    archivePrefix={arXiv},
+    url={https://arxiv.org/abs/2604.21211}
 }
 ```

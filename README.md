@@ -207,14 +207,16 @@ python src/evaluate/inter_annotator/evaluate_inter.py --config config/evaluate_i
 
 - **Code**: MIT License
 - **TAB Dataset**: MIT License ([Pilán et al., 2022](https://github.com/NorskRegnesentral/text-anonymization-benchmark))
-- **PANORAMA Dataset**: CC BY 4.0 ([Selvam et al., 2025](https://github.com/panorama-privacy/panorama))
+- **PANORAMA Dataset**: CC BY 4.0 ([Selvam et al., 2025](https://github.com/selvamsriram/PANORAMA-DataGen))
 
 ## Acknowledgments
 
 This work builds upon:
-- [TAB (Text Anonymization Benchmark)](https://github.com/NorskRegnesentral/text-anonymization-benchmark) by Pilán et al.
-- [PANORAMA](https://github.com/panorama-privacy/panorama) by Selvam et al.
+- [TAB (Text Anonymization Benchmark)](https://arxiv.org/abs/2202.00443) by Pilán et al.
+- [PANORAMA](https://arxiv.org/abs/2505.12238) by Selvam et al.
 - [LLM Privacy](https://github.com/eth-sri/llmprivacy) by Staab et al.
+
+Supported by the Personal Information Protection Commission and the Korea Internet & Security Agency (KISA), Republic of Korea (Project 2780000030).
 
 ## Citation
 

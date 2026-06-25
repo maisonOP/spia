@@ -68,7 +68,15 @@ The dataset is included under `data/spia/` and also available on 🤗 **[spia-be
 | **CODE** (5) | ID Number, Driver License, Phone, Passport, Email |
 | **NON-CODE** (10) | Name, Sex, Age, Location, Nationality, Education, Relationship, Occupation, Affiliation, Position |
 
-## Evaluation Metrics
+## Evaluation
+
+### Assessment Workflow
+
+<p align="center">
+  <img src="assets/evaluation_protocol.png" width="85%" alt="SPIA assessment workflow">
+</p>
+
+SPIA evaluates anonymization through a subject-level inference workflow: an LLM adversary infers subjects and PIIs from anonymized text, an LLM matcher aligns inferred subjects with ground truth annotations, and matched PII values are scored as exact, partial, or missed.
 
 ### Privacy Metrics
 

@@ -73,7 +73,7 @@ The dataset is included under `data/spia/` and also available on 🤗 **[spia-be
 ### Assessment Workflow
 
 <p align="center">
-  <img src="assets/evaluation_protocol.png" width="85%" alt="SPIA assessment workflow">
+  <img src="assets/evaluation_protocol.png" width="80%" alt="SPIA assessment workflow">
 </p>
 
 SPIA evaluates anonymization through a subject-level inference workflow: an LLM adversary infers subjects and PIIs from anonymized text, an LLM matcher aligns inferred subjects with ground truth annotations, and matched PII values are scored as exact, partial, or missed.
